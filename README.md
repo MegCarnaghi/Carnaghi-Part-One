@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
+- [Link to Webpage & Screenshots](#link-to-webpage-&-screenshots)
 
 ## Description
 
@@ -16,5 +16,7 @@ Deliverable 1 for Grand Circus Front-End Coding Bootcamp: A website that is iden
 - CSS
 
 ## Screenshots
+
+Link to webpage: https://megcarnaghi.github.io/Carnaghi-Part-One/
 
 ![Desktop View](assets/screenshots/desktop-view.jpg) ![Mobile View](assets/screenshots/mobile-view.jpg)
