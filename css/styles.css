@@ -1,0 +1,128 @@
+/* Mobile Version - browsers smaller than 768px */
+
+/* Basic styling for page */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Styling for nav bar */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Styling for page logo */
+h1 {
+  color: #20a8b4;
+  font-size: 36px;
+  padding: 10px;
+}
+
+/* Styling for orange text */
+.orange-text {
+  color: #ff5c0f;
+}
+
+/* styling for the nav bar and nav bar links */
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-menu li a {
+  display: block;
+  padding: 0 5px;
+}
+
+.nav-item {
+  padding: 10px;
+  width: 100%;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff5c0f;
+  cursor: pointer;
+}
+
+/* Styling for the contact us and learn more buttons */
+button {
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #20a8b4;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ff5c0f;
+  cursor: pointer;
+}
+
+/* Styling for learn more section */
+.flex-container {
+  margin: 75px 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+/* Styling for image */
+img {
+  visibility: hidden;
+}
+
+/* Adjustments for larger devices (landscape tablets, desktops, etc. 768px and up) */
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .nav-menu li a {
+    display: block;
+    padding: 13px 5px;
+  }
+
+  #logo {
+    flex: 1;
+  }
+
+  .nav-item {
+    position: relative;
+    display: block;
+    width: auto;
+  }
+
+  .flex-container {
+    padding-top: 60px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  img {
+    visibility: visible;
+    width: 600px;
+  }
+
+  button {
+    width: auto;
+  }
+}
