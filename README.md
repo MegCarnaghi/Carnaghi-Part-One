@@ -15,7 +15,7 @@ Deliverable 1 for Grand Circus Front-End Coding Bootcamp: A website that is iden
 - HTML
 - CSS
 
-## Screenshots
+## Link to Webpage & Screenshots
 
 Link to webpage: https://megcarnaghi.github.io/Carnaghi-Part-One/
 
